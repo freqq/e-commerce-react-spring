@@ -1,0 +1,35 @@
+.hovered-category-container{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10;
+    background: white;
+    margin-top: -16px;
+    border: 2px solid #0055aa;
+    width: 100%;
+    padding: 70px 30px 70px 30px;
+    min-height: 630px;
+    margin-left: -2px;
+}
+
+.hovered-category-container .category-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #050505;
+}
+
+.hovered-category-container ul li:first-child{
+    margin-bottom: 7px;
+}
+
+.hovered-category-container ul{
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.hovered-category-container ul li a{
+    color: black;
+    font-size: 14px;
+    font-weight: 200;
+}

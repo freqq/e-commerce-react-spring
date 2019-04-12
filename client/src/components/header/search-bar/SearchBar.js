@@ -14,14 +14,36 @@ class SearchBar extends Component {
 
     render() {
         return (
-            <div>
-                <input
-                    placeholder="szukaj np. zegarek sportowy"
-                    className="form-control search-bar"
-                    type="text"
-                    name="searchText"
-                    value={this.state.searchText}
-                    onChange={this.onChange}/>
+            <div className="search-bar-container">
+                <div class="input-group">
+                    <i class="fas fa-search"></i>
+                    <input
+                        placeholder="szukaj np. zegarek sportowy"
+                        type="text"
+                        class="form-control search-bar"
+                        aria-label="Text input with dropdown button"/>
+                    <div class="input-group-append">
+                        <button
+                            class="btn btn-outline-secondary dropdown-toggle"
+                            type="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">Wszystkie działy</button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item active" href="#">Wszystkie działy</a>
+                            <a class="dropdown-item" href="#">Komputery</a>
+                            <a class="dropdown-item" href="#">RTV</a>
+                            <a class="dropdown-item" href="#">Fotografia i kamery</a>
+                            <a class="dropdown-item" href="#">AGD</a>
+                            <a class="dropdown-item" href="#">Telefony</a>
+                            <a class="dropdown-item" href="#">Biuro</a>
+                            <a class="dropdown-item" href="#">Strefa Gracza</a>
+                            <a class="dropdown-item" href="#">Laptopy</a>
+                            <a class="dropdown-item" href="#">Muzyka</a>
+                            <a class="dropdown-item" href="#">Film</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }

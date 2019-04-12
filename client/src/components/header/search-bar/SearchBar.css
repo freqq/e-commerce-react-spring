@@ -1,10 +1,13 @@
 .search-bar{
     height: 50px;
-    border-radius: 2px;
+    border-radius: 2px !important;
     font-size: 12px;
-    width: 68vh;
-    padding-left: 40px;
+    width: 48vh !important;
+    padding-left: 60px;
     margin-left: 36px;
+    border: 1px solid #c0c7cf;
+    border-right: none;
+    z-index: 99;
 }
 
 .search-bar::placeholder{
@@ -14,4 +17,49 @@
 .search-bar:focus{
     box-shadow: none;
     border-color: #c7ced5;
+}
+
+.search-bar-container select{
+    display: inline-block !important;
+}
+
+.input-group-append button:hover, .input-group-append button, .input-group-append button:focus{
+    background: #ffffff !important;
+    border: 1px solid #c0c7cf !important;
+    border-left: none !important;
+    color: black !important;
+    font-size: 14px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.dropdown-menu{
+    margin: 0;
+    margin-top: -2px;
+    padding: 0;
+    z-index: -1;
+    font-size: 13px;
+}
+
+.dropdown-menu a:first-child{
+    padding-top: 5px;
+}
+
+.dropdown-menu .active{
+    background: #ecebeb;
+    font-weight: bold;
+    color: black;
+}
+
+.input-group{
+    position: relative ;
+}
+
+.fa-search{
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    z-index: 101;
+    color: #c0c7cf;
+    font-size: 25px;
 }

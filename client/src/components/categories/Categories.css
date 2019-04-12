@@ -1,0 +1,124 @@
+.categories-container {
+    margin-top: 92px;
+    width: 100%;
+}
+
+.under-top-navbar-menu {
+    background: #ffffff;
+}
+
+.under-top-navbar-menu ul {
+    list-style: none;
+    text-align: center;
+    padding: 15px;
+}
+
+.under-top-navbar-menu li {
+    display: inline-block;
+    margin: 0 52px;
+    font-size: 14px;
+}
+
+.under-top-navbar-menu li a {
+    color: black;
+    padding: 0 15px;
+}
+.under-top-navbar-menu li a:hover {
+    text-decoration: none !important;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #0055aa;
+}
+
+.text-red {
+    color: #e11617 !important;
+}
+.text-red:hover {
+    color: #e11617;
+    border-bottom: 3px solid #e11617 !important;
+}
+
+.categories {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0055aa !important;
+    text-align: center;
+}
+
+.top-categories li:first-child{
+    padding-top: 18px;
+    text-align: center;
+    margin-bottom: 35px;
+    border-bottom: 0 !important;
+}
+
+.categories:hover {
+    cursor: text;
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+}
+
+
+
+
+.left-side-main-categories-menu {
+    background: white;
+    padding: 0;
+    margin-top: -71px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .1);
+}
+
+
+.left-side-main-categories-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-side-main-categories-menu ul i {
+    margin-top: 5px;
+    color: #2f2f2f;
+}
+
+.left-side-main-categories-menu ul li {
+    cursor: pointer;
+    padding: 6px 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.left-side-main-categories-menu ul li a {
+    color: black;
+}
+
+.left-side-main-categories-menu ul li:hover {
+    border-bottom: 2px solid #0055aa;
+    border-right: 2px solid #ffffff;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    position: relative;
+    z-index: 99;
+}
+
+.left-side-main-categories-menu ul li:first-child:hover {
+    padding-bottom: 6px !important;
+}
+
+.left-side-main-categories-menu ul li a:hover {
+    text-decoration: none;
+}
+
+.down-main-left-side-menu{
+    margin-bottom: 0;
+}
+
+.down-main-left-side-menu i {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.down-main-left-side-menu .fa-chevron-right{
+    font-size: 14px;
+}
+
+.under-top-navbar-menu li:first-child{
+    margin-left: 250px;
+}

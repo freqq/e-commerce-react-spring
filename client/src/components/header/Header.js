@@ -6,7 +6,7 @@ class Header extends Component {
     render() {
         return (
             <header>
-                <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">
                             <img
@@ -46,7 +46,7 @@ class Header extends Component {
                                     <a className="nav-link" href="#">
                                         <div className="row display-table">
                                             <div className="col-sm-3">
-                                                <i class="fas fa-phone"></i>
+                                                <i className="fas fa-phone"></i>
                                             </div>
                                             <div className="col-sm-9 display-table-cell">
                                                 Kontakt
@@ -58,7 +58,7 @@ class Header extends Component {
                                     <a className="nav-link" href="#">
                                         <div className="row display-table">
                                             <div className="col-sm-3 display-table-cell">
-                                                <i class="far fa-heart"></i>
+                                                <i className="far fa-heart"></i>
                                             </div>
                                             <div className="col-sm-9 display-table-cell">
                                                 <p>Listy</p>
@@ -71,7 +71,7 @@ class Header extends Component {
                                     <a className="nav-link" href="#">
                                         <div className="row display-table">
                                             <div className="user display-table-cell">
-                                                <i class="far fa-user"></i>
+                                                <i className="far fa-user"></i>
                                             </div>
                                             <div className="col-sm-12 display-table-cell">
                                                 <p>Zaloguj sie</p>
@@ -84,7 +84,7 @@ class Header extends Component {
                                     <a className="nav-link" href="#">
                                         <div className="row display-table">
                                             <div className="col-sm-3">
-                                                <i class="fas fa-shopping-cart"></i>
+                                                <i className="fas fa-shopping-cart"></i>
                                             </div>
                                             <div className="col-sm-9 display-table-cell">
                                                 0,00 zł
