@@ -1,0 +1,57 @@
+.navbar-brand{
+    width: 10vw;
+}
+
+.navbar{
+    height: 90px;
+    background: #ffffff !important;
+}
+
+.topnav-menu li{
+    display:table;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.nav-item{
+    margin-right: 25px;
+    margin-left: 0 !important;
+}
+
+.nav-link{
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: middle;
+    color: black !important;
+    font-weight: 200;
+}
+
+.nav-link i {
+    font-size: 30px;
+}
+
+.display-table{
+    display: table;
+}
+
+.display-table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.display-table-cell p {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.col-sm-3, .user{
+    padding-right: 10px;
+}
+
+.display-table:first-child{
+    margin-left: 15px;
+}
