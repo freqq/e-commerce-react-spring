@@ -1,9 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {Component} from 'react'
 import './CategoriesHover.css'
 
 class CategoriesHover extends Component {
     state = {
-        hoveredCategory: null
+        hoveredCategory: null,
+        showHover: false
     }
 
     componentDidMount(){
@@ -16,11 +18,16 @@ class CategoriesHover extends Component {
         }
     }
 
+    onHover = () =>[
+        //this.setState({showHover: !this.state.showHover})
+        console.log('zmiana')
+    ]
+
     renderCategories = () => {
         return (
-            <div className="categories-list">
-                <div class="row">
-                    <div class="col-sm-3">
+            <div onMouseLeave={this.onHover} onMouseEnter={this.onHover} className="categories-list">
+                <div className="row">
+                    <div className="col-sm-3">
                         <ul>
                             <li>
                                 <a href="#" className="category-name">
@@ -81,7 +88,7 @@ class CategoriesHover extends Component {
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
+                    <div className="col-sm-3">
                         <ul>
                             <li>
                                 <a href="#" className="category-name">
@@ -153,7 +160,7 @@ class CategoriesHover extends Component {
                         </ul>
                     </div>
 
-                    <div class="col-sm-3">
+                    <div className="col-sm-3">
                         <ul>
                             <li>
                                 <a href="#" className="category-name">
@@ -229,7 +236,7 @@ class CategoriesHover extends Component {
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
+                    <div className="col-sm-3">
                         <ul>
                             <li>
                                 <a href="#" className="category-name">
@@ -301,10 +308,10 @@ class CategoriesHover extends Component {
     }
 
     render() {
-        const {hoveredCategory} = this.state
+        const {hoveredCategory, showHover} = this.state
         return (
             <div className="hovered-category-container">
-                {hoveredCategory !== null
+                {hoveredCategory !== null && !showHover
                     ? <div>
                             {this.renderCategories()}
                         </div>

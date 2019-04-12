@@ -19,9 +19,6 @@ import small_picture7 from './img/small/7.png'
 import small_picture8 from './img/small/8.png'
 
 class Slider extends Component {
-    componentDidUpdate() {
-        
-    }
 
     render() {
         return (

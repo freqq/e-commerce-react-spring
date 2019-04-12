@@ -180,7 +180,7 @@
     cursor: pointer;
 }
 
-.slick-slide img{
+.slider-nav .slick-slide img{
     box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, .1);
 }
 
