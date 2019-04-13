@@ -43,7 +43,7 @@
 
 .product-info {
     background: #ffffff;
-    margin: 20px 0;
+    margin: 15px 0;
     box-shadow: 1px 0 15px 6pxpx rgba(0, 0, 0, .1);
 }
 
@@ -104,6 +104,10 @@
 .product-name {
     margin: 10px 0 !important;
     font-weight: bold;
+}
+
+.product-name:hover{
+    text-decoration: underline;
 }
 
 .product-description,
@@ -175,4 +179,28 @@
     text-decoration: none;
     color: white;
     background: #AB000E;
+}
+
+.sort-options i {
+    float: right;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.sort-options select {
+    background: #ffffff;
+    border-radius: 0 !important;
+    -webkit-appearance: none;
+    border: 1px solid #C4C4C4;
+    padding: 10px;
+    margin-right: 50px;
+    width: 400px;
+}
+
+.sort-options select::-ms-expand {
+    display: block !important;
 }

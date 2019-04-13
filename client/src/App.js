@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer'
 import ProductsList from './components/products-list/ProductsList'
 import './App.css';
 import UnderTopNavbarMenu from './components/categories/under-top-navbar-menu/UnderTopNavbarMenu';
+import ProductDetails from './components/products-list/products-list-view/product-details/ProductDetails';
 
 class App extends Component {
     render() {
@@ -14,7 +15,7 @@ class App extends Component {
             <div className="App">
                 <Header />
                 <UnderTopNavbarMenu />
-                <ProductsList />
+                <ProductDetails />
                 <OverFooterText />
                 <Footer />
             </div>

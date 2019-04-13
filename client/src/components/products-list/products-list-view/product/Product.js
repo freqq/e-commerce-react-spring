@@ -10,10 +10,10 @@ class Product extends Component {
         <div className="product-info">
         <div className="row">
             <div className="col-sm-2">
-                <i class="far fa-heart"></i>
+                <i className="far fa-heart"></i>
                 <img src={product_1} alt=""/>
                 <p className="compare">
-                    <i class="fas fa-balance-scale"></i>
+                    <i className="fas fa-balance-scale"></i>
                     dodaj do porównania
                 </p>
             </div>

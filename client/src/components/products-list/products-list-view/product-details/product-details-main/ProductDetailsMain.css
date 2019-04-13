@@ -1,0 +1,93 @@
+.product-details-main-container{
+    margin-top: 40px;
+    background: #ffffff;
+    box-shadow: 1px 0 15px 3px rgba(0, 0, 0, .1);
+    margin: 0;
+}
+
+.product-details-main-right {
+    padding: 20px 30px 30px 30px;
+    border-left: 1px solid #f0f0f0;
+}
+
+.product-details-main-right .add-to-comparsion {
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    float: right;
+    font-size: 12px;
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.product-details-main-right .add-to-comparsion i{
+    margin: 0 10px;
+}
+
+.product-details-main-right .add-to-comparsion:hover {
+    background: #f0f0f0;
+}
+
+.product-details-main-right .product-name{
+    clear: both;
+    margin-top: 40px !important;
+    font-size: 24px
+}
+
+.product-details-main-right .product-name:hover{
+    text-decoration: none;
+}
+
+.product-details-main-right .product-description{
+    margin-bottom: 10px;
+}
+
+.product-details-main-right .item-actions span{
+    color: #1261B0;
+    font-size: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-details-main-right .item-actions span:hover{
+    text-decoration: underline;
+}
+
+.product-specificaton{
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+}
+
+.last-li{
+    color: #1261B0;
+    cursor: pointer;
+}
+
+.last-li:hover{
+    text-decoration: underline;
+}
+
+.producent-recommendation {
+    margin-top: 50px;
+}
+
+.producent-recommendation h3{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: #0055AA;
+    padding: 4px;
+    display: inline;
+}
+
+.producent-recommendation p {
+    font-size: 12px;
+    background: #E8F0F8;
+    color: #0055AA;
+    padding: 20px 10px 10px 10px;
+    margin-top: -15px;
+}

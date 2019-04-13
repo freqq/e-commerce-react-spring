@@ -24,8 +24,6 @@ class Categories extends Component {
     render() {
         return (
             <div className="categories-container">
-               <UnderTopNavbarMenu />
-
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-sm-2 left-side-main-categories-menu">
