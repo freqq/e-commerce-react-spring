@@ -1,0 +1,154 @@
+.products-filters{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.category-keeper img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.category-keeper p {
+    margin: 0;
+}
+
+.keeper-name{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.keeper-desc{
+    font-weight: 100;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.ask-keeper{
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.ask-keeper i {
+    margin-right: 5px;
+}
+
+.ask-keeper:hover{
+    text-decoration: underline;
+}
+
+.filter-category{
+    margin-top: 20px;
+}
+
+.filter-category h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.filter-category .form-check{
+    margin: 12px 0;
+}
+
+.filter-category .form-check-label{
+    margin-left: 15px !important;
+    font-size: 14px;
+}
+
+.filter-category .form-check-label:hover{
+    text-decoration: underline;
+}
+
+.filter-category .form-check-input{
+    zoom: 1.2;
+}
+
+.filter-category h4{
+    color: #3C3C3C;
+    font-size: 13px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.filter-category .show-more{
+    color: #3B7BBB;
+    padding-left: 0;
+}
+
+.filter-category .show-more .form-check-label{
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.products-filters .weight h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.products-filters .irs-bar, .products-filters .irs-from, .products-filters .irs-to{
+    background: #003C75;
+}
+
+.range-input {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.range-input input {
+    width: 40%;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.filter-button{
+    background: #0055AA;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filter-button:hover{
+    background: #003C75;
+    color: white;
+    text-decoration: none;
+}
+
+.advanced-filter-button{
+    border: 1px solid #0055AA;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px 15px;
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    font-weight: bold;
+    transition: 0.2s
+}
+
+.advanced-filter-button:hover{
+    text-decoration: none;
+    background: #ffffff;
+}
+
+.advanced-filter-button i {
+    float: right;
+    margin-top: 5px;
+}

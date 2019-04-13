@@ -2,6 +2,7 @@
 import React, {Component} from "react";
 import MainRightSide from './MainRightSide'
 import "./Categories.css";
+import UnderTopNavbarMenu from "./under-top-navbar-menu/UnderTopNavbarMenu";
 
 class Categories extends Component {
     state = {
@@ -23,32 +24,7 @@ class Categories extends Component {
     render() {
         return (
             <div className="categories-container">
-                <div className="under-top-navbar-menu">
-                    <ul>
-                        <li>
-                            <a href="#" className="text-red">
-                                AGD taniej do 426 zł!
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Konfigurator PC</a>
-                        </li>
-                        <li>
-                            <a href="#" className="text-red">
-                                Alarm Cenowy
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">OUTLET</a>
-                        </li>
-                        <li>
-                            <a href="#">Wyprzedaz</a>
-                        </li>
-                        <li>
-                            <a href="#">Montaz zestawu PC</a>
-                        </li>
-                    </ul>
-                </div>
+               <UnderTopNavbarMenu />
 
                 <div className="container-fluid">
                     <div className="row">

@@ -13,6 +13,8 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css" />
     <title>MyShop - online store</title>
 </head>
 
@@ -30,6 +32,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
     <script>
         $(document)
             .ready(function () {
@@ -55,7 +58,7 @@
                 $('.products-slider').slick({
                     slidesToShow: 3,
                     centerMode: false,
-                    slidesToScroll: 1,
+                    slidesToScroll: 3,
                     dots: false,
                     variableWidth: true,
                     arrows: false,
@@ -65,7 +68,7 @@
                 $('.news-slider').slick({
                     slidesToShow: 3,
                     centerMode: false,
-                    slidesToScroll: 1,
+                    slidesToScroll: 3,
                     dots: false,
                     variableWidth: true,
                     arrows: false,
@@ -75,7 +78,7 @@
                 $('.full-width-slider').slick({
                     slidesToShow: 3,
                     centerMode: false,
-                    slidesToScroll: 1,
+                    slidesToScroll: 5,
                     dots: false,
                     variableWidth: true,
                     arrows: false,
@@ -97,6 +100,11 @@
                     var slideno = $(this).data('slide');
                     $('.slider-nav').slick('slickGoTo', slideno - 1);
                 });
+
+                $(".js-range-slider").ionRangeSlider({
+                    skin: "round"
+                });
+
             });
     </script>
 </body>
