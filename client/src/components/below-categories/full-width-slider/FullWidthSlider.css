@@ -1,0 +1,27 @@
+.full-width-slider .slick-slide .image-container{
+    height: 220px;
+}
+.full-width-slider .slick-slide img{
+    max-height: 200px !important;
+    margin: 0 20px;
+}
+
+.full-width-slider p {
+    margin: 0;
+}
+
+.full-width-slider .slick-slide{
+    margin: 0 10px;
+}
+
+.full-width{
+    margin-left: -15px;
+}
+
+.full-width-slider img{
+    transition: 0.2s;
+}
+
+.full-width-slider img:hover{
+    opacity: 0.7;
+}

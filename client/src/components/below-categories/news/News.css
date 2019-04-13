@@ -1,0 +1,14 @@
+.news .slick-slide, .news .slick-slide img{
+    margin-right: 10px !important;
+}
+
+.news-slider .slick-slide .image-container {
+    height: 160px;
+}
+.news-slider .slick-slide .image-container img {
+    max-height: 160px;
+}
+
+.news{
+    padding-bottom: 90px;
+}

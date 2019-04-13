@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import FeaturedProducts from './featured-products/FeaturedProducts'
 import News from './news/News'
 import StealAlert from './steal-alert/StealAlert'
+import BigSliderUnderStealAlert from './big-slider/BigSliderUnderStealAlert'
+import FullWidthSlider from './full-width-slider/FullWidthSlider'
 import './BelowCategoriesContent.css'
 
 class BelowCategoriesContent extends Component {
@@ -17,6 +19,8 @@ class BelowCategoriesContent extends Component {
                         <StealAlert />
                     </div>
                 </div>
+                <BigSliderUnderStealAlert />
+                <FullWidthSlider />
             </div>
         )
     }

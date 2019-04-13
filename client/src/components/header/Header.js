@@ -76,7 +76,7 @@ class Header extends Component {
                                             </div>
                                             <div className="col-sm-12 display-table-cell">
                                                 <p>Zaloguj sie</p>
-                                                <p>Zaloz konto</p>
+                                                <p>Zalóż konto</p>
                                             </div>
                                         </div>
                                     </a>

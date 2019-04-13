@@ -24,12 +24,12 @@ class FeaturedProducts extends Component {
                             <p className="featured-product-price">4253 zł</p>
                             <p className="featured-product-name">Procesor AMD Ryzen ...</p>
                             <p className="featured-product-rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="rating-count">(101)</span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="rating-count">(101)</span>
                             </p>
                         </div>
                     </div>
@@ -41,12 +41,12 @@ class FeaturedProducts extends Component {
                             <p className="featured-product-price">4253 zł</p>
                             <p className="featured-product-name">Procesor AMD Ryzen ...</p>
                             <p className="featured-product-rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="rating-count">(101)</span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="rating-count">(101)</span>
                             </p>
                         </div>
                     </div>
@@ -58,12 +58,12 @@ class FeaturedProducts extends Component {
                             <p className="featured-product-price">4253 zł</p>
                             <p className="featured-product-name">Procesor AMD Ryzen ...</p>
                             <p className="featured-product-rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="rating-count">(101)</span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="rating-count">(101)</span>
                             </p>
                         </div>
                     </div>
@@ -75,12 +75,12 @@ class FeaturedProducts extends Component {
                             <p className="featured-product-price">4253 zł</p>
                             <p className="featured-product-name">Procesor AMD Ryzen ...</p>
                             <p className="featured-product-rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="rating-count">(101)</span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="rating-count">(101)</span>
                             </p>
                         </div>
                     </div>
@@ -92,12 +92,12 @@ class FeaturedProducts extends Component {
                             <p className="featured-product-price">4253 zł</p>
                             <p className="featured-product-name">Procesor AMD Ryzen ...</p>
                             <p className="featured-product-rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="rating-count">(101)</span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="rating-count">(101)</span>
                             </p>
                         </div>
                     </div>
@@ -109,12 +109,12 @@ class FeaturedProducts extends Component {
                             <p className="featured-product-price">4253 zł</p>
                             <p className="featured-product-name">Procesor AMD Ryzen ...</p>
                             <p className="featured-product-rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="rating-count">(101)</span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="rating-count">(101)</span>
                             </p>
                         </div>
                     </div>
@@ -126,12 +126,12 @@ class FeaturedProducts extends Component {
                             <p className="featured-product-price">4253 zł</p>
                             <p className="featured-product-name">Procesor AMD Ryzen ...</p>
                             <p className="featured-product-rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="rating-count">(101)</span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="rating-count">(101)</span>
                             </p>
                         </div>
                     </div>

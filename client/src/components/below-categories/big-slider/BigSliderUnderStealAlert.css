@@ -1,0 +1,22 @@
+.big-images-slider, .big-images-slider-segment  {
+    background: #f0f0f0;
+}
+.big-images-slider .slick-slide{
+    margin: 0 20px;
+    background: #ffffff;
+    padding: 15px;
+}
+
+.big-images-slider img{
+    transition: 0.2s;
+}
+
+.big-images-slider img:hover{
+    opacity: 0.7;
+}
+
+.big-images-slider p{
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
