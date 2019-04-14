@@ -10,14 +10,13 @@ import UnderTopNavbarMenu from './components/categories/under-top-navbar-menu/Un
 import ProductDetails from './components/products-list/products-list-view/product-details/ProductDetails';
 import Login from './components/user/login/Login';
 import Cart from './components/cart/Cart';
+import ForgotPassword from './components/user/forgot-password/ForgotPassword';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-               <Header />
-               <UnderTopNavbarMenu />
-                <Cart />
+               <ForgotPassword />
             </div>
         );
     }
