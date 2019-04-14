@@ -1,0 +1,67 @@
+.payment-container{
+    margin-top: 50px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, .1);
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.payment-container h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin: 0;
+}
+
+
+
+.delivery-container .delivery-category h4{
+    color: #6A6A6A;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+
+.payment-category .info-element{
+    font-size: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    margin-left: 5px;
+    color: #CCCCCC;
+    font-weight: bold;
+    padding: 2px 6px; 
+}
+
+.payment-category .text-bold{
+    font-weight: 600;
+}
+
+.payment-category {
+    font-size: 14px;
+}
+
+.payment-category .col-sm-2{
+    text-align: right;
+}
+
+.payment-category .form-check label{
+    margin-left: 5px;
+}
+
+.payment-category .info-element{
+    font-size: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    margin-left: 5px;
+    color: #CCCCCC;
+    font-weight: bold;
+    padding: 2px 6px; 
+}
+
+.payment-category img {
+    width: 6%;
+    margin-left: 8px;
+}

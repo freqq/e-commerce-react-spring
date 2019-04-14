@@ -2,6 +2,8 @@
 import React, {Component} from 'react'
 import './Cart.css'
 import ProductCart from './product-cart/ProductCart';
+import Delivery from './delivery/Delivery';
+import Payment from './payment/Payment';
 
 class Cart extends Component {
     state = {
@@ -47,28 +49,33 @@ class Cart extends Component {
         return (
             <div className="cart-with-products">
                 <div className="row">
-                    <div className="col-sm-8 main-cart-side">
-                        <div className="cart-top">
-                            <h3>Twój koszyk ({products.length})</h3>
-                            <div className="float-right cart-options">
-                                <span>
-                                    <i class="far fa-heart"></i>
-                                    Zapisz koszyk</span>
-                                <span>
-                                    <i class="fas fa-times"></i>
-                                    Wyczyść wszystko</span>
+                    <div className="col-sm-8">
+                        <div className="main-cart-side">
+                            <div className="cart-top">
+                                <h3>Twój koszyk ({products.length})</h3>
+                                <div className="float-right cart-options">
+                                    <span>
+                                        <i class="far fa-heart"></i>
+                                        Zapisz koszyk</span>
+                                    <span>
+                                        <i class="fas fa-times"></i>
+                                        Wyczyść wszystko</span>
+                                </div>
                             </div>
+
+                            <hr/>
+
+                            <ProductCart/>
+                            <ProductCart/>
+
+                            <p className="main-cart-price">Wartość produktów
+                                <span className="big-price">4608 zł</span>
+                            </p>
                         </div>
 
-                        <hr/>
+                        <Delivery/>
 
-                        <ProductCart />
-                        <ProductCart />
-
-                        <p className="main-cart-price">Wartość produktów
-                            <span className="big-price">4608 zł</span>
-                        </p>
-
+                        <Payment />
                     </div>
                     <div className="col-sm-4">
                         <div className="cart-right-side main-delivery">

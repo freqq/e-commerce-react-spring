@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import product_1 from '../img/1.jpg'
-import product_2 from '../img/2.jpg'
+import product_1 from './img/1.jpg'
+import product_2 from './img/2.jpg'
 import './ProductCart.css'
 
 class ProductCart extends Component {

@@ -1,5 +1,6 @@
 .cart-product {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 .cart-product img {
@@ -40,5 +41,5 @@
     font-size: 12px;
     color: #6B6B6B;
     margin-top: 10px;
-    margin-right: 40px;
+    margin-right: 30px;
 }

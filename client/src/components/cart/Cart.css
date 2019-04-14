@@ -46,7 +46,7 @@
 
 .cart-right-side{
     background: #ffffff;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .1);
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -94,7 +94,7 @@
 .main-cart-side{
     background: #ffffff;
     padding: 20px;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, .1);
 }
 
 .main-cart-side h3{
