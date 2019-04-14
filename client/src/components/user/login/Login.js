@@ -252,7 +252,7 @@ class Login extends Component {
                     <i className="fab fa-facebook-f"/>
                     Facebook
                 </p>
-                <a href="#" className="go-back-button">
+                <a href="/" className="go-back-button">
                     <i className="fas fa-chevron-left"/>
                     Wróc do strony głównej
                 </a>
