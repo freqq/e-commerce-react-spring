@@ -8,16 +8,13 @@ import ProductsList from './components/products-list/ProductsList'
 import './App.css';
 import UnderTopNavbarMenu from './components/categories/under-top-navbar-menu/UnderTopNavbarMenu';
 import ProductDetails from './components/products-list/products-list-view/product-details/ProductDetails';
+import Login from './components/user/login/Login';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <Header />
-                <UnderTopNavbarMenu />
-                <ProductDetails />
-                <OverFooterText />
-                <Footer />
+               <Login />
             </div>
         );
     }
