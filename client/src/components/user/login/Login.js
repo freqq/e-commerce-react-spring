@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {Component} from "react";
 import PasswordStrengthMeter from './password-strength-meter/PasswordStrengthMeter'
+import {Link} from 'react-router-dom'
 import "./Login.css";
 
 class Login extends Component {
@@ -191,7 +192,9 @@ class Login extends Component {
                                                 Zapamiętaj mnie
                                             </label>
                                         </div>
-                                        <span className="forgot-password">Nie pamiętam hasła</span>
+                                        <Link to="/forgot-password">
+                                            <span className="forgot-password">Nie pamiętam hasła</span>
+                                        </Link>
                                     </div>
                                 )
                                 : (
@@ -252,10 +255,10 @@ class Login extends Component {
                     <i className="fab fa-facebook-f"/>
                     Facebook
                 </p>
-                <a href="/" className="go-back-button">
+                <Link to="/" className="go-back-button">
                     <i className="fas fa-chevron-left"/>
                     Wróc do strony głównej
-                </a>
+                </Link>
             </div>
         );
     }

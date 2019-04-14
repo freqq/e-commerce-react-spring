@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 import SearchBar from './search-bar/SearchBar'
 import './Header.css'
 
@@ -75,8 +76,10 @@ class Header extends Component {
                                                 <i className="far fa-user"></i>
                                             </div>
                                             <div className="col-sm-12 display-table-cell">
-                                                <p>Zaloguj sie</p>
-                                                <p>Zalóż konto</p>
+                                                <Link to="/login">
+                                                    <p>Zaloguj sie</p>
+                                                    <p>Zalóż konto</p>
+                                                </Link>
                                             </div>
                                         </div>
                                     </a>

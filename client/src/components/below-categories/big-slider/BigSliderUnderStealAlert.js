@@ -5,12 +5,23 @@ import small_picture2 from './img/2.png'
 import small_picture3 from './img/3.png'
 import small_picture4 from './img/4.png'
 import small_picture5 from './img/5.png'
+import Slider from 'react-slick'
 
 class BigSliderUnderStealAlert extends Component {
     render() {
+        var settings = {
+            slidesToShow: 3,
+            centerMode: false,
+            slidesToScroll: 1,
+            dots: false,
+            variableWidth: true,
+            arrows: false,
+            focusOnSelect: true
+        }
+
         return (
             <div className="slider-segment big-images-slider-segment full-width">
-                <div className="big-images-slider">
+                <Slider {...settings}className="big-images-slider">
                     <div>
                         <p className="title">Pralka Beko</p>
                         <div className="image-container">
@@ -42,7 +53,7 @@ class BigSliderUnderStealAlert extends Component {
                             <img src={small_picture5} alt="" className="img-fluid"/>
                         </div>
                     </div>
-                </div>
+                </Slider>
             </div>
         )
     }

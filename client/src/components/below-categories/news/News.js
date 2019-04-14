@@ -7,15 +7,26 @@ import small_picture4 from './img/4.png'
 import small_picture5 from './img/5.jpg'
 import small_picture6 from './img/6.png'
 import small_picture7 from './img/7.png'
+import Slider from 'react-slick'
 
 class News extends Component {
     render() {
+        var settings = {
+            slidesToShow: 3,
+            centerMode: false,
+            slidesToScroll: 3,
+            dots: false,
+            variableWidth: true,
+            arrows: false,
+            focusOnSelect: true
+        }
+
         return (
             <div className="slider-segment news">
                 <h3 className="segment-header">
                     Aktualności
                 </h3>
-                <div className="news-slider">
+                <Slider {...settings} className="news-slider">
                     <div>
                     <div className="image-container">
                             <img src={small_picture1} alt="" className="img-fluid"/>
@@ -77,7 +88,7 @@ class News extends Component {
 
                         </div>
                     </div>
-                </div>
+                </Slider>
             </div>
         )
     }

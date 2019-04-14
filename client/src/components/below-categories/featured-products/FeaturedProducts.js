@@ -7,15 +7,25 @@ import small_picture4 from './img/4.jpg'
 import small_picture5 from './img/5.jpg'
 import small_picture6 from './img/6.jpg'
 import small_picture7 from './img/7.jpg'
+import Slider from 'react-slick'
 
 class FeaturedProducts extends Component {
     render() {
+        var settings = {
+            slidesToShow: 3,
+            centerMode: false,
+            slidesToScroll: 3,
+            dots: false,
+            variableWidth: true,
+            arrows: false,
+            focusOnSelect: true
+        }
         return (
             <div className="slider-segment">
                 <h3 className="segment-header">
                     Polecane produkty
                 </h3>
-                <div className="products-slider">
+                <Slider {...settings} className="products-slider">
                     <div>
                     <div className="image-container">
                             <img src={small_picture1} alt="" className="img-fluid"/>
@@ -135,7 +145,7 @@ class FeaturedProducts extends Component {
                             </p>
                         </div>
                     </div>
-                </div>
+                </Slider>
             </div>
         )
     }

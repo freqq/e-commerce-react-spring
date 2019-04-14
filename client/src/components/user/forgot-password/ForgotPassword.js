@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 import './ForgotPassword.css'
 
 class ForgotPassword extends Component {
@@ -32,9 +33,11 @@ class ForgotPassword extends Component {
                 <p className="forgot-password-subheading">e-mail z linkiem resetującym hasło został wysłany na Twoją skrzynkę pocztową:</p>
                 <p>{this.state.email}</p>
                 <p>Linki z e-maila będą aktywne przez 1 godzinę.</p>
-                <button type="submit" className="login-button">
-                    Przejdz do strony głównej
-                </button>
+                <Link to="/">
+                    <button type="submit" className="login-button">
+                        Przejdz do strony głównej
+                    </button>
+                </Link>
             </div>
         )
     }
@@ -82,10 +85,10 @@ class ForgotPassword extends Component {
 
                 {formSent
                     ? ''
-                    : <a href="/" className="go-back-button">
+                    : <Link to="/login" className="go-back-button">
                         <i className="fas fa-chevron-left"/>
                         Wróc do logowania
-                    </a>
+                    </Link>
 }
             </div>
         )
