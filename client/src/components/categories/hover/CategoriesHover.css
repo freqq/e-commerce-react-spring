@@ -6,10 +6,11 @@
     background: white;
     margin-top: -16px;
     border: 2px solid #0055aa;
-    width: 100%;
+    width: 145vh;
     padding: 70px 30px 70px 30px;
     min-height: 630px;
-    margin-left: -2px;
+    margin-left: 265px;
+    margin-top: 5px;
 }
 
 .hovered-category-container .category-name{

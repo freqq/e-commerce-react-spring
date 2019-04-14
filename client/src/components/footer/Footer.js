@@ -204,16 +204,16 @@ class Footer extends Component {
                         Znajdziesz nas na :
                         <ul className="footer-socials">
                             <li>
-                                <i class="fab fa-facebook-f"></i>
+                                <i className="fab fa-facebook-f"></i>
                             </li>
                             <li>
-                                <i class="fab fa-youtube"></i>
+                                <i className="fab fa-youtube"></i>
                             </li>
                             <li>
-                                <i class="fab fa-instagram"></i>
+                                <i className="fab fa-instagram"></i>
                             </li>
                             <li>
-                                <i class="fab fa-twitter"></i>
+                                <i className="fab fa-twitter"></i>
                             </li>
                         </ul>
 

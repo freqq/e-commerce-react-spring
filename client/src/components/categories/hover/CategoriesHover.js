@@ -5,27 +5,32 @@ import './CategoriesHover.css'
 class CategoriesHover extends Component {
     state = {
         hoveredCategory: null,
-        showHover: false
+        showHover: false,
+        leaveMenu: false
     }
 
-    componentDidMount(){
+    componentDidMount() {
         this.setState({hoveredCategory: this.props.hovered})
     }
 
     componentDidUpdate(prevProps, prevState) {
         if (this.props.hovered !== prevProps.hovered) {
             this.setState({hoveredCategory: this.props.hovered})
+            if (this.props.hovered !== null){
+                this.setState({showHover: true})
+            }
         }
     }
 
-    onHover = () =>[
-        //this.setState({showHover: !this.state.showHover})
-        console.log('zmiana')
-    ]
+    onMouseLeave = () => {
+        this.setState({showHover: false})
+    }
 
     renderCategories = () => {
         return (
-            <div onMouseLeave={this.onHover} onMouseEnter={this.onHover} className="categories-list">
+            <div
+                onMouseLeave={this.onMouseLeave}
+                className="categories-list">
                 <div className="row">
                     <div className="col-sm-3">
                         <ul>
@@ -310,13 +315,16 @@ class CategoriesHover extends Component {
     render() {
         const {hoveredCategory, showHover} = this.state
         return (
-            <div className="hovered-category-container">
-                {hoveredCategory !== null && !showHover
-                    ? <div>
+            <div>
+                {hoveredCategory !== null || showHover
+                    ? <div className="hovered-category-container">
+
                             {this.renderCategories()}
+
                         </div>
-                    : 'Loading'}
+                    : ''}
             </div>
+
         )
     }
 }

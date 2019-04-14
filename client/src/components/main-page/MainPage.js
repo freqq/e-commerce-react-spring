@@ -11,7 +11,7 @@ class MainPage extends Component {
         return (
             <div className="main-page-container">
                 <Header />
-                <UnderTopNavbarMenu />
+                <UnderTopNavbarMenu mainpage={true} />
                 <Categories />
                 <BelowCategoriesContent />
                 <OverFooterText />

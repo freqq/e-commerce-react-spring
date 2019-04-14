@@ -4,6 +4,8 @@ import './Cart.css'
 import ProductCart from './product-cart/ProductCart';
 import Delivery from './delivery/Delivery';
 import Payment from './payment/Payment';
+import UnderTopNavbarMenu from '../categories/under-top-navbar-menu/UnderTopNavbarMenu';
+import Header from '../header/Header';
 
 class Cart extends Component {
     state = {
@@ -75,7 +77,7 @@ class Cart extends Component {
 
                         <Delivery/>
 
-                        <Payment />
+                        <Payment/>
                     </div>
                     <div className="col-sm-4">
                         <div className="cart-right-side main-delivery">
@@ -94,7 +96,7 @@ class Cart extends Component {
                                 <span>Łącznie</span>
                                 <span className="float-right">709 zł</span>
                             </div>
-                            <a href="#" className="move-on-button">Przejdz dalej</a>
+                            <button disabled={true} href="#" className="move-on-button">Przejdz dalej</button>
                         </div>
 
                         <div className="cart-right-side">
@@ -117,10 +119,14 @@ class Cart extends Component {
     render() {
         const {products} = this.state
         return (
-            <div className="container-fluid">
-                {products.length === 0
-                    ? this.noProducts()
-                    : this.renderCart()}
+            <div>
+                <Header />
+                <UnderTopNavbarMenu mainpage={false} />
+                <div className="container-fluid">
+                    {products.length === 0
+                        ? this.noProducts()
+                        : this.renderCart()}
+                </div>
             </div>
         )
     }

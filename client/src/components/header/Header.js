@@ -10,11 +10,11 @@ class Header extends Component {
             <header>
                 <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">
+                        <Link className="navbar-brand" to="/">
                             <img
                                 src="https://www.morele.net/static/img/shop/logo/img-logo-morele.svg"
                                 alt="brand-logo"/>
-                        </a>
+                        </Link>
                         <SearchBar/>
 
                         <button
@@ -70,22 +70,20 @@ class Header extends Component {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <Link to="/login" className="nav-link" href="#">
                                         <div className="row display-table">
                                             <div className="user display-table-cell">
                                                 <i className="far fa-user"></i>
                                             </div>
                                             <div className="col-sm-12 display-table-cell">
-                                                <Link to="/login">
                                                     <p>Zaloguj sie</p>
                                                     <p>Zalóż konto</p>
-                                                </Link>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <Link className="nav-link" to="/cart">
                                         <div className="row display-table">
                                             <div className="col-sm-3">
                                                 <i className="fas fa-shopping-cart"></i>
@@ -94,7 +92,7 @@ class Header extends Component {
                                                 0,00 zł
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
