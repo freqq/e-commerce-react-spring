@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: account-service
+  cloud:
+    config:
+      uri: http://127.0.0.1:9090
+      fail-fast: true
+  datasource:
+    initialization-mode: always
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9091/eureka
