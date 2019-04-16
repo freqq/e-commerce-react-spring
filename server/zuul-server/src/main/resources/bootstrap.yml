@@ -28,7 +28,7 @@ ribbon:
 
 zuul:
   ignoredServices: '*'
-  prefix: /api/v1
+  prefix: /api
   ribbonIsolationStrategy: THREAD
   host:
     socket-timeout-millis: 30000
