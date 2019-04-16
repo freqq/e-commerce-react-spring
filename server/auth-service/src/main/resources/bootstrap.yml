@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: auth-service
+  cloud:
+    config:
+      uri: http://127.0.0.1:9090
+      fail-fast: true
+
+server:
+  port: 9093
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9091/eureka
