@@ -1,0 +1,39 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: zuul-server
+  cloud:
+    config:
+      uri: http://127.0.0.1:9090
+      fail-fast: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9091/eureka
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+ribbon:
+  ReadTimeout: 15000
+  ConnectTimeout: 15000
+
+zuul:
+  ignoredServices: '*'
+  prefix: /api/v1
+  ribbonIsolationStrategy: THREAD
+  host:
+    socket-timeout-millis: 30000
+    connect-timeout-millis: 30000
+  routes:
+    account:
+      serviceId: account-service
+      sensitiveHeaders: Cookie,Set-Cookie
