@@ -10,18 +10,18 @@ class Delivery extends Component {
 
         <div className="delivery-category">
           <h4>
-            <i class="fas fa-dolly-flatbed" /> Odbiór
+            <i className="fas fa-dolly-flatbed" /> Odbiór
           </h4>
           <div className="row">
             <div className="col-sm-6">
-              <div class="form-check">
+              <div className="form-check">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"
                 />
-                <label class="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   <span className="text-bold">Salon Netpunkt</span>
                   <span className="info-element">i</span>
                 </label>
@@ -36,18 +36,18 @@ class Delivery extends Component {
 
         <div className="delivery-category">
           <h4>
-          <i class="fas fa-shipping-fast"></i> Kurier
+          <i className="fas fa-shipping-fast"></i> Kurier
           </h4>
           <div className="row">
             <div className="col-sm-6">
-              <div class="form-check">
+              <div className="form-check">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"
                 />
-                <label class="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   <span className="text-bold">Kurier</span>
                   <span className="info-element">i</span>
                 </label>

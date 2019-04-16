@@ -1,0 +1,18 @@
+.discount-card .input-group{
+    margin: 0 !important;
+}
+
+.discount-card button{
+    background: #0055AA !important;
+    color: white !important;
+    font-size: 14px;
+}
+
+.discount-card button:hover{
+    color: white !important;
+    background: #003C75 !important;
+}
+
+.discount-card input:focus{
+    box-shadow: none;
+}

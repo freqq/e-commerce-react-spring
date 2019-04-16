@@ -53,7 +53,7 @@ class ProductCart extends Component {
                     </div>
                     <div className="col-sm-2">
                         <span className="float-right delete-product">
-                            <i class="fas fa-ellipsis-v"></i>
+                            <i className="fas fa-ellipsis-v"></i>
                         </span>
 
                         <div className="right-bottom">

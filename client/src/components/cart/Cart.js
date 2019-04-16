@@ -6,10 +6,14 @@ import Delivery from './delivery/Delivery';
 import Payment from './payment/Payment';
 import UnderTopNavbarMenu from '../categories/under-top-navbar-menu/UnderTopNavbarMenu';
 import Header from '../header/Header';
+import AddDiscontCode from './add-discount-code/AddDiscontCode';
+import AddGiveawayCard from './add-giveaway-card/AddGiveawayCard';
 
 class Cart extends Component {
     state = {
-        products: [2]
+        products: [2],
+        choosenShipment: null,
+        choosenPaymemnt: null
     }
 
     noProducts = () => {
@@ -20,13 +24,13 @@ class Cart extends Component {
                 <div className="no-products-cart">
                     <h2>Nie znaleźliśmy żadnych produktów w Twoim koszyku!</h2>
                     <p className="back-home">Wróć na
-                        <span class="text-blue">
+                        <span className="text-blue">
                             stronę główną
                         </span>by kontynuować zakupy
                     </p>
                     <p className="back-home">
                         albo sprawdź swoje
-                        <span class="text-blue">listy zakupowe.
+                        <span className="text-blue">listy zakupowe.
                         </span>
                     </p>
 
@@ -38,7 +42,7 @@ class Cart extends Component {
                     <p className="back-home">
                         Jeśli Ciebie nie dotyczy żaden z tych przypadków a jednak koszyk został
                         wyczyszczony,
-                        <span class="text-blue">zgłoś błąd.</span>
+                        <span className="text-blue">zgłoś błąd.</span>
                     </p>
                 </div>
 
@@ -57,10 +61,10 @@ class Cart extends Component {
                                 <h3>Twój koszyk ({products.length})</h3>
                                 <div className="float-right cart-options">
                                     <span>
-                                        <i class="far fa-heart"></i>
+                                        <i className="far fa-heart"></i>
                                         Zapisz koszyk</span>
                                     <span>
-                                        <i class="fas fa-times"></i>
+                                        <i className="fas fa-times"></i>
                                         Wyczyść wszystko</span>
                                 </div>
                             </div>
@@ -99,17 +103,8 @@ class Cart extends Component {
                             <button disabled={true} href="#" className="move-on-button">Przejdz dalej</button>
                         </div>
 
-                        <div className="cart-right-side">
-                            <p className="cart-right-side-heading">
-                                Dodaj kod rabatowy
-                            </p>
-                        </div>
-
-                        <div className="cart-right-side">
-                            <p className="cart-right-side-heading">
-                                Dodaj kartę podarunkową
-                            </p>
-                        </div>
+                        <AddDiscontCode />
+                        <AddGiveawayCard />
                     </div>
                 </div>
             </div>

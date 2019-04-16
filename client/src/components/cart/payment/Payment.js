@@ -13,14 +13,14 @@ class Payment extends Component {
         <div className="payment-category">
           <div className="row">
             <div className="col-sm-6">
-              <div class="form-check">
+              <div className="form-check">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"
                 />
-                <label class="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   <span className="text-bold">Pobranie (Gotówka przy odbiorze)</span>
                 </label>
               </div>
@@ -35,14 +35,14 @@ class Payment extends Component {
         <div className="payment-category">
           <div className="row">
             <div className="col-sm-6">
-              <div class="form-check">
+              <div className="form-check">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"
                 />
-                <label class="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   <span className="text-bold">
                   Karta płatnicza online
                   <img src={visa_svg} alt="" />
@@ -62,14 +62,14 @@ class Payment extends Component {
         <div className="payment-category">
           <div className="row">
             <div className="col-sm-6">
-              <div class="form-check">
+              <div className="form-check">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"
                 />
-                <label class="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   <span className="text-bold">Przelew tradycyjny</span>
                 </label>
               </div>
@@ -83,14 +83,14 @@ class Payment extends Component {
         <div className="payment-category">
           <div className="row">
             <div className="col-sm-6">
-              <div class="form-check">
+              <div className="form-check">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"
                 />
-                <label class="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   <span className="text-bold">Przelew błyskawiczny lub BLIK</span>
                 </label>
               </div>
@@ -104,14 +104,14 @@ class Payment extends Component {
         <div className="payment-category">
           <div className="row">
             <div className="col-sm-6">
-              <div class="form-check">
+              <div className="form-check">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"
                 />
-                <label class="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   <span className="text-bold">Raty</span>
                 </label>
               </div>
@@ -125,14 +125,14 @@ class Payment extends Component {
         <div className="payment-category">
           <div className="row">
             <div className="col-sm-6">
-              <div class="form-check">
+              <div className="form-check">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"
                 />
-                <label class="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   <span className="text-bold">Leasing</span>
                 </label>
               </div>
@@ -146,14 +146,14 @@ class Payment extends Component {
         <div className="payment-category">
           <div className="row">
             <div className="col-sm-6">
-              <div class="form-check">
+              <div className="form-check">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"
                 />
-                <label class="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   <span className="text-bold">
                   Masterpass
                   <span className="info-element">i</span>
