@@ -18,7 +18,7 @@ public class CorsConfig extends WebSecurityConfigurerAdapter {
     private CustomCorsFilter customCorsFilter;
 
     @Autowired
-    public CorsConfig(CustomCorsFilter customCorsFilter){
+    public CorsConfig(CustomCorsFilter customCorsFilter) {
         this.customCorsFilter = customCorsFilter;
     }
 

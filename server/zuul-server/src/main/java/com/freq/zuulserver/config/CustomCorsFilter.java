@@ -13,8 +13,13 @@ import java.io.IOException;
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class CustomCorsFilter implements Filter {
     @Override
-    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain chain) throws IOException, ServletException {
-        final HttpServletResponse httpServletResponse = (HttpServletResponse) servletResponse;
+    public void init(FilterConfig filterConfig) throws ServletException {
+
+    }
+
+    @Override
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+        final HttpServletResponse httpServletResponse = (HttpServletResponse) response;
         httpServletResponse.setHeader("Access-Control-Allow-Origin", "*");
         httpServletResponse.setHeader("Access-Control-Allow-Credentials", "true");
         httpServletResponse.setHeader("Access-Control-Allow-Methods", "POST, PUT, GET, PATCH, OPTIONS, DELETE");
@@ -22,8 +27,14 @@ public class CustomCorsFilter implements Filter {
         httpServletResponse.setHeader("Access-Control-Allow-Headers", "X-Requested-With, Authorization, Origin, Content-Type, Version");
         httpServletResponse.setHeader("Access-Control-Expose-Headers", "X-Requested-With, Authorization, Origin, Content-Type, Location");
         httpServletResponse.setHeader("Content-Type", "text/html");
-        final HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;
-        if(!httpServletRequest.getMethod().equals("OPTIONS"))
-            chain.doFilter(servletRequest, servletResponse);
+        final HttpServletRequest httpServletRequest = (HttpServletRequest) request;
+        if (!httpServletRequest.getMethod().equals("OPTIONS")) {
+            chain.doFilter(request, response);
+        }
+    }
+
+    @Override
+    public void destroy() {
+
     }
 }

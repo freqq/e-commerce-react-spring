@@ -1,13 +1,10 @@
 package com.freq.jwtconfig;
 
-
-import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Data
 @Component
-public class JwtConfig{
+public class JwtConfig {
     @Value("${security.jwt.uri:/login/**}")
     private String Uri;
 

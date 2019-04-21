@@ -11,6 +11,7 @@ public class AccountMapper {
         return Account.builder()
                 .username(signUpRequest.getUsername())
                 .email(signUpRequest.getEmail())
+                .password(signUpRequest.getPassword())
                 .build();
     }
 }

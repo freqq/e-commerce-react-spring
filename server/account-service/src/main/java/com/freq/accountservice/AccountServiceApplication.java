@@ -9,9 +9,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @ComponentScan({"com.freq.config", "com.freq.accountservice"})
 @EnableSwagger2
 public class AccountServiceApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(AccountServiceApplication.class, args);
     }
-
 }

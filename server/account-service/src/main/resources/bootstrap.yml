@@ -10,6 +10,8 @@ spring:
       fail-fast: true
   datasource:
     initialization-mode: always
+  main:
+    allow-bean-definition-overriding: true
 
 eureka:
   client:

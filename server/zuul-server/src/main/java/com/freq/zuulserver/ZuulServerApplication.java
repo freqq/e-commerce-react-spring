@@ -13,9 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @ComponentScan({"com.freq.zuulserver"})
 @EnableZuulProxy
 public class ZuulServerApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ZuulServerApplication.class, args);
     }
-
 }

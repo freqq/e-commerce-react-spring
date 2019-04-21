@@ -8,6 +8,8 @@ spring:
     config:
       uri: http://127.0.0.1:9090
       fail-fast: true
+  main:
+    allow-bean-definition-overriding: true
 
 eureka:
   client:
@@ -28,7 +30,7 @@ ribbon:
 
 zuul:
   ignoredServices: '*'
-  prefix: /api
+  prefix: /api/v1
   ribbonIsolationStrategy: THREAD
   host:
     socket-timeout-millis: 30000
